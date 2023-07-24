@@ -40,7 +40,9 @@
   },
   "homepage": "https://github.com/razroo/codemorph-devkit#readme",
   "dependencies": {
-    "@ctrl/tinycolor": "^3.6.0"
+    "@ctrl/tinycolor": "^3.6.0",
+    "ejs": "^3.1.9",
+    "lodash": "^4.17.21"
   },
   "exports": {
     ".": {
@@ -58,6 +60,8 @@
     "lib/**/*"
   ],
   "devDependencies": {
-    "@types/jest": "^29.5.3"
+    "@types/ejs": "^3.1.2",
+    "@types/jest": "^29.5.3",
+    "@types/lodash": "^4.14.195"
   }
 }
