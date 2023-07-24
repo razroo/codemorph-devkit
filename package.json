@@ -3,7 +3,7 @@
   "workspaces": [
     "src/rz/angular"
   ],
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Devkit for Code Morph core",
   "types": "./lib/cjs/types/index.d.ts",
   "main": "./lib/cjs/index.js",
@@ -43,6 +43,7 @@
     "@ctrl/tinycolor": "^3.6.0",
     "ejs": "^3.1.9",
     "glob": "^10.3.3",
+    "tslib": "^2.3.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
