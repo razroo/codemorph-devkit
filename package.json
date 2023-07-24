@@ -42,14 +42,15 @@
   "dependencies": {
     "@ctrl/tinycolor": "^3.6.0",
     "ejs": "^3.1.9",
+    "glob": "^10.3.3",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "jest": "^27.0.7",
-    "ts-jest": "^27.1.5",
-    "@types/jest": "^27.5.2",
     "@types/ejs": "^3.1.2",
-    "@types/lodash": "^4.14.195"
+    "@types/jest": "^27.5.2",
+    "@types/lodash": "^4.14.195",
+    "jest": "^27.0.7",
+    "ts-jest": "^27.1.5"
   },
   "exports": {
     ".": {
