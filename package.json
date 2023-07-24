@@ -39,8 +39,9 @@
     "url": "https://github.com/razroo/codemorph-devkit/issues"
   },
   "homepage": "https://github.com/razroo/codemorph-devkit#readme",
-  "devDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "@ctrl/tinycolor": "^3.6.0"
+  },
   "exports": {
     ".": {
       "import": {
