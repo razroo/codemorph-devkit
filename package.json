@@ -44,6 +44,13 @@
     "ejs": "^3.1.9",
     "lodash": "^4.17.21"
   },
+  "devDependencies": {
+    "jest": "^27.0.7",
+    "ts-jest": "^27.1.5",
+    "@types/jest": "^27.5.2",
+    "@types/ejs": "^3.1.2",
+    "@types/lodash": "^4.14.195"
+  },
   "exports": {
     ".": {
       "import": {
@@ -58,10 +65,5 @@
   },
   "files": [
     "lib/**/*"
-  ],
-  "devDependencies": {
-    "@types/ejs": "^3.1.2",
-    "@types/jest": "^29.5.3",
-    "@types/lodash": "^4.14.195"
-  }
+  ]
 }
