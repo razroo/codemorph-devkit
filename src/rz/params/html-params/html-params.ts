@@ -68,7 +68,7 @@ export function getHtmlParameters(optionName: string): any {
               name: 'codeBlock',
               inputType: 'code',
               description: 'Code that will be inserted into html as property.',
-              codeExample: `{'(sideNavToggle)': 'sideNavToggle()'}`
+              codeExample: `{"(sideNavToggle)": "sideNavToggle()"}`
             },
             {
               name: 'tagNameToInsertInto',
