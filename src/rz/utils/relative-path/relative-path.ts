@@ -8,5 +8,5 @@ export function determineRelativePath(filePath: string) {
   if(relativePath === '') {
     return null
   }
-  return relativePath;
+  return relativePath + '/';
 }
