@@ -6,7 +6,7 @@ export function determineRelativePath(filePath: string) {
   const relativePath = Array(numberOfSegmentsToRoot).fill('..').join('/');
   // put heavy lifting here so user doesn't have to worry about
   if(relativePath === '') {
-    return null
+    return relativePath
   }
   return relativePath + '/';
 }
