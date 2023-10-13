@@ -5,3 +5,4 @@ export { determineFilePathParameter } from "./determine-parameter/determine-para
 export { replaceCodeModEditsTemplateVariables } from "./replace-template-variables/replace-template-variables";
 export { getAllDirectoriesFromVsCodeFolder } from "./directories/directories";
 export { extractProjectName } from "./git-utils/git-utils";
+export { determineRelativePath } from "./relative-path/relative-path";
