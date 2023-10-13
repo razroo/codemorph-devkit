@@ -8,5 +8,12 @@ describe('relativePath', () => {
       const expected = '../..';
       expect(result).toEqual(expected);
     });
+
+    it('should return null if no relative path i.e. it is root', () => {
+      const filePath = 'tsconfig.json';
+      const result = determineRelativePath(filePath);
+      const expected = null;
+      expect(result).toEqual(expected);
+    });
   })
 })
