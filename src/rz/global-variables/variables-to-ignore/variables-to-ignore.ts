@@ -158,6 +158,7 @@ export const powerUpVariables: PowerUpVariables[] = [
     description: 'Will construct the relative path from root of project',
     defaultValue: 'relativePathFromRoot',
     stubValue: 'relativePathFromRoot',
-    variableDependency: 'relativePathFromRoot'
+    variableDependency: 'relativePathFromRoot',
+    type: 'system'
   }
 ]
