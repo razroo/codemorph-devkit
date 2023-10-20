@@ -81,6 +81,12 @@ export function getHtmlParameters(optionName: string): any {
               inputType: 'text',
               description: 'Tag name of html we will be inserting properties into.',
               codeExample: 'global-header'
+            },
+            {
+              name: 'className',
+              inputType: 'text',
+              description: 'Optional. Class of the html tag to insert into.',
+              codeExample: 'container'
             }
           ]
         }  
