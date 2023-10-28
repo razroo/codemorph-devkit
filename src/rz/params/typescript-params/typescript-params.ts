@@ -90,6 +90,36 @@ export function getTsParameters(optionName: string): any {
           }
         ]
       }
+    case 'addFunction':
+      return {
+        nodeType: 'addFunction',
+        inputs: [
+          {
+            name: 'name',
+            inputType: 'text',
+            description: 'Name of function',
+            codeExample: 'createApollo'
+          },
+          {
+            name: 'type',
+            inputType: 'text',
+            description: 'Typescript type of function',
+            codeExample: 'string'
+          },
+          {
+            name: 'parameters',
+            inputType: 'code',
+            description: 'Parameters to add to method',
+            codeExample: `[{"name": "test", "type": "string"}]`
+          },
+          {
+            name: 'codeBlock',
+            inputType: 'text',
+            description: 'Code to go inside of function',
+            codeExample: 'return 1 + 1;'
+          }
+        ]
+      }  
     case 'addClassMethod':
       return {
         nodeType: 'addClassMethod',
