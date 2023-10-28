@@ -114,7 +114,7 @@ export function getTsParameters(optionName: string): any {
           },
           {
             name: 'codeBlock',
-            inputType: 'text',
+            inputType: 'code',
             description: 'Code to go inside of function',
             codeExample: 'return 1 + 1;'
           }
