@@ -282,5 +282,5 @@ export function getTsParameters(optionName: string): any {
 }
 
 export function getTsOptions(): string[] {
-  return ['import', 'export', 'addImportsToExisting', 'editImport', 'classDeclaration', 'addClassMethod', 'classMethod', 'addNgModuleImport', 'addNgModuleExport', 'addNgModuleProvider', 'addNgModuleDeclaration', 'addNgModuleImportToSpec', 'addToVariableObject', 'addConstructorMethod', 'addVariableDeclarationStatement'];
+  return ['import', 'export', 'addImportsToExisting', 'editImport', 'classDeclaration', 'addFunction', 'addClassMethod', 'classMethod', 'addNgModuleImport', 'addNgModuleExport', 'addNgModuleProvider', 'addNgModuleDeclaration', 'addNgModuleImportToSpec', 'addToVariableObject', 'addConstructorMethod', 'addVariableDeclarationStatement'];
 }
