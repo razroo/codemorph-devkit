@@ -120,6 +120,24 @@ export function getTsParameters(optionName: string): any {
           }
         ]
       }  
+    case 'addVariableStatement':
+      return {
+        nodeType: 'addVariableStatement',
+        inputs: [
+          {
+            name: 'name',
+            inputType: 'text',
+            description: 'Name of the variable',
+            codeExample: 'cleanTypenameApolloLink'
+          },
+          {
+            name: 'codeBlock',
+            inputType: 'code',
+            description: 'Code for the variable',
+            codeExample: 'new ApolloLink(cleanTypenameLink)'
+          }
+        ]
+      }  
     case 'addClassMethod':
       return {
         nodeType: 'addClassMethod',
@@ -282,5 +300,5 @@ export function getTsParameters(optionName: string): any {
 }
 
 export function getTsOptions(): string[] {
-  return ['import', 'export', 'addImportsToExisting', 'editImport', 'classDeclaration', 'addFunction', 'addClassMethod', 'classMethod', 'addNgModuleImport', 'addNgModuleExport', 'addNgModuleProvider', 'addNgModuleDeclaration', 'addNgModuleImportToSpec', 'addToVariableObject', 'addConstructorMethod', 'addVariableDeclarationStatement'];
+  return ['import', 'export', 'addImportsToExisting', 'editImport', 'classDeclaration', 'addFunction', 'addVariableStatement', 'addClassMethod', 'classMethod', 'addNgModuleImport', 'addNgModuleExport', 'addNgModuleProvider', 'addNgModuleDeclaration', 'addNgModuleImportToSpec', 'addToVariableObject', 'addConstructorMethod', 'addVariableDeclarationStatement'];
 }
