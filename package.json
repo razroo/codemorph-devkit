@@ -3,7 +3,7 @@
   "workspaces": [
     "src/rz/angular"
   ],
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Devkit for Code Morph core",
   "types": "./lib/cjs/types/index.d.ts",
   "main": "./lib/cjs/index.js",
