@@ -1,6 +1,7 @@
 import { CommunityPaths } from './community-paths/community-paths';
 import { angularTypes } from './../angular/types/types';
 import { reactTypes } from '../react';
+import { nextjsTypes } from '../nextjs/types/nextjs.types';
 
 
 export interface Parameters {
@@ -14,6 +15,8 @@ export function types(programmingLanguage: string): any[] {
       return angularTypes;
     case CommunityPaths.React: 
       return reactTypes;  
+    case CommunityPaths.Nextjs: 
+      return nextjsTypes;  
     default: 
       return [];  
   }
